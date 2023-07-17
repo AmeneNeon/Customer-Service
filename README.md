@@ -1,1 +1,1 @@
-# Customer-Service
+To run the program use npm start
