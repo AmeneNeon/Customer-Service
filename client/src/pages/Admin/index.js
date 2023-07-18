@@ -4,6 +4,8 @@ import Products from "./products";
 import Users from "./User";
 import { useSelector } from "react-redux";
 import {useNavigate} from "react-router-dom"
+
+//in order to work the admin page , go to your database and change the role from user to admin
 function Admin() {
 
 const navigate =useNavigate()
