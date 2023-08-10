@@ -44,7 +44,7 @@ function UserInput() {
 
     // Axios Post function
     axios
-      .post("http://localhost:5000/user/inquiry", formData)
+      .post("http://localhost:4000/user/inquiry", formData)
       .then((res) => {
         console.log(res);
         alert("Your message has been submitted successfully!");
